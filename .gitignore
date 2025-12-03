@@ -1,0 +1,33 @@
+# --- Keil MDK (ARM) 编译产生的垃圾文件 ---
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.htm
+*.lnp
+*.sct
+*.iex
+*.axf
+*.elf
+
+# --- Keil 项目配置备份与个人布局 (保留 .uvprojx) ---
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.bak
+JLinkLog.txt
+*.scvd
+
+# --- 压缩包与大文件 (Git不适合传这些) ---
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# --- Windows 系统缓存 ---
+Thumbs.db
+Desktop.ini
